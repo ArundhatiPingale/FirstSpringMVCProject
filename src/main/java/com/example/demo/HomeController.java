@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 	
 	@RequestMapping("home")
-	public ModelAndView Home(@RequestParam ("name") String myname ,HttpSession session)
+	public ModelAndView Home(@RequestParam ("name") String myname )
 	{
 		
 		ModelAndView mv=new ModelAndView();
